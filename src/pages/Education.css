@@ -1,0 +1,105 @@
+/* Education Section Styling */
+.education-section {
+  text-align: center;
+  padding: 60px 20px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  width: 100%;
+}
+
+/* Light Mode */
+.light-mode .education-section {
+  background-color: transparent;
+  color: #222;
+}
+
+/* Dark Mode */
+.dark-mode .education-section {
+  background-color: transparent;
+  color: white;
+}
+
+.education-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #00eeff;
+}
+
+.education-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.education-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+  width: 300px;
+}
+
+.light-mode .education-card {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.education-card:hover {
+  transform: scale(1.05);
+  border: 2px solid #00eeff;
+}
+
+.college-name {
+  font-weight: bold;
+  color: #555;
+}
+
+.year {
+  font-style: italic;
+  color: #777;
+}
+
+.status {
+  color: rgb(13, 158, 13);
+  font-weight: bold;
+}
+
+.grade {
+  color: #ff5722;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .education-container {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+
+/* Social Icons Styling */
+.social-icons {
+  display: flex;
+  gap: 25px; /* Increased gap between icons */
+  margin-top: 20px;
+  /*justify-content: center;*/
+}
+
+.social-icon {
+  font-size: 40px; /* Increased icon size */
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.3);
+}
+
+/* Custom Colors for Icons */
+.social-icon:nth-child(1) { color: #333; }  /* GitHub */
+.social-icon:nth-child(2) { color: #0A66C2; } /* LinkedIn */
+.social-icon:nth-child(3) { color: #D44638; } /* Gmail */
+.social-icon:nth-child(4) { color: #C13584; } /* Instagram */

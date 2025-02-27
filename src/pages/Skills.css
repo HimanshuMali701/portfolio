@@ -1,0 +1,21 @@
+.skills-container {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .skills-section {
+    margin-top: 20px;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Adds spacing between badges */
+  }
+  
+  .skills-grid img {
+    height: 40px; /* Adjust size if needed */
+    margin: 5px; /* Extra spacing */
+  }
+  

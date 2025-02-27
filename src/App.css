@@ -1,0 +1,47 @@
+#root {
+  /* Removed max-width restriction */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contact Form Styling */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto; /* Ensures it's centered */
+  padding: 50px 25px;
+  background: linear-gradient(135deg, #007BFF, #0056b3);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Centers vertically */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-text, .home-image-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-container {
+    max-width: 90%;
+    padding: 30px 15px;
+  }
+}
+
