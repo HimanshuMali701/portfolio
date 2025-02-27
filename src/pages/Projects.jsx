@@ -13,7 +13,7 @@ const projects = [
     title: "Portfolio Website",
     image: "/images/portfolio.png",
     preview: "https://himanshu-portfolio-alpha.vercel.app/",
-    source: "https://github.com/your-portfolio-repo",
+    source: "https://github.com/HimanshuMali701/portfolio",
   },
  /* {
     title: "Retail Analytics Dashboard",
